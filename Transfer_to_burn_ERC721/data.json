@@ -1,0 +1,12 @@
+{
+    "errorCode": 0,
+    "blockchain": "goerli",
+    "userAddress": "0xB79111ba38eFF0415926ac11bc6f56d087F81E5a",
+    "nfts": [
+        {
+            "contractAddress": "0x2258c5fd2e2733b47c51e503d91d7bcf738421fe",
+            "tokenId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "balance": "1"
+        }
+    ]
+}
