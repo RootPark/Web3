@@ -3,8 +3,9 @@ const Web3 = require('web3');
 
 let net = require('net');
 
-let API_URL = "<--alchemy wws URL-->";
 //프로바이더로 알케미를 선택한다면 간단하게 변경하여 사용 가능.
+//let API_URL = "<--alchemy wss URL-->";
+//const web3 = new Web3(API_URL);
 
 const web3 = new Web3(new Web3.providers.IpcProvider('\\\\.\\pipe\\geth.ipc',net));
 
