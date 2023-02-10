@@ -1,4 +1,3 @@
-//https://velog.io/@root_park/Geth2-NFT-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A6%AC%EC%8A%A4%EB%8B%9DERC-721-ERC-1155
 let Web3 = require("web3");
 
 let net = require('net');
