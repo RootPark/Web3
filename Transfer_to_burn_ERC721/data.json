@@ -1,11 +1,11 @@
 {
     "errorCode": 0,
     "blockchain": "goerli",
-    "userAddress": "0xB79111ba38eFF0415926ac11bc6f56d087F81E5a",
+    "userAddress": "0x568D6e410b347245093eef3606F4A8F7F1D9F33C",
     "nfts": [
         {
-            "contractAddress": "0x2258c5fd2e2733b47c51e503d91d7bcf738421fe",
-            "tokenId": "0x0000000000000000000000000000000000000000000000000000000000000002",
+            "contractAddress": "0x378dc6471759ed48822dcb2eb627adcabcb9fcf7",
+            "tokenId": "0x0000000000000000000000000000000000000000000000000000000000000001",
             "balance": "1"
         }
     ]

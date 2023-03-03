@@ -10,7 +10,7 @@ let net = require('net');
 //프로바이더가 geth인 경우 ipc주소를 입력하면 됨. 아래는 window기준 default 위치
 const web3 = new Web3(new Web3.providers.IpcProvider('\\\\.\\pipe\\geth.ipc',net));
 
-let Address = '0xB79111ba38eFF0415926ac11bc6f56d087F81E5a';
+let Address = '0x568d6e410b347245093eef3606f4a8f7f1d9f33c';
 //테스트 address
 let Contract = '0x5899a199a50e957430a597d8e7b2136dc1121e7e';
 let TokenId = 1;

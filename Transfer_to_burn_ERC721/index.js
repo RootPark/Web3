@@ -1,12 +1,12 @@
 import js from './data.json' assert { type: "json"}; //json file input
 import Web3 from 'web3';
 
-let API_URL = "<--alchemy wss api-->"; //alchemy websocket api
+let API_URL = "wss://eth-goerli.g.alchemy.com/v2/w6aF4AiFzf1bwD1eBtLwORBxgSWOnHVW"; //alchemy websocket api
 let web3 = new Web3(API_URL);
 
 const MY_ADDRESS = js.userAddress.substring(2);
 
-const PRIVATE_KEY = '<--priviate key-->'; //프라이빗 키 입력
+const PRIVATE_KEY = 'de6a08364a28bbc17cf6474db93e4343815a4b0d773159a5b805be370afb95d4'; //프라이빗 키 입력
 const BURN_ADDRESS = '000000000000000000000000000000000000dead'; //소각 주소
 
 async function main(){
@@ -22,7 +22,7 @@ async function main(){
             value: '0x00',
             data: DATA_INPUT,
             gas: 2000000,
-            nonce: nonce + 1
+        
         }, PRIVATE_KEY);
         
         web3.eth.sendSignedTransaction(signTx.rawTransaction, function(error,hash){
